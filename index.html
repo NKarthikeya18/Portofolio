@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero" id="home">
+            <img src="download.jpeg" class="circle-frame">
+            <h1>Hello, I'm Karthikeya</h1>
+            <p>Web Developer | Designer | Problem Solver</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I'm a web developer with a passion for creating interactive and user-friendly applications. With experience in modern web technologies, I specialize in building responsive websites and web applications.</p>
+            <h3>Education</h3>
+            <p>Bachelor's Degree in Computer Science from XYZ University</p>
+            <h3>Professional Experience</h3>
+            <p>Over 3 years of experience in web development, working with various technologies including HTML, CSS, JavaScript, and frameworks like React and Angular.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Interactive Stopwatch</h3>
+            <p>A web-based stopwatch application with start, pause, reset, and lap functionalities.</p>
+        </div>
+        <div class="project">
+            <h3>Tic-Tac-Toe Game</h3>
+            <p>An interactive tic-tac-toe game with user interactions and game state management.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me for any web development inquiries or collaborations.</p>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Karthikeya. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
